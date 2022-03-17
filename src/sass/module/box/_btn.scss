@@ -1,0 +1,43 @@
+@use "global" as *;
+// sp size  375px -> sp
+// tb size  768px -> md
+// pc size 1440px -> xl
+
+.btn {
+  // size setting
+  max-width: rem(351);
+  width: 100%;
+  display: inline-block;
+  // font
+  font-family: "Noto Sans JP";
+  font-size: rem(20);
+  font-weight: $regular;
+  letter-spacing: rem(0);
+  line-height: 1;
+  // decoration
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #fff;
+  // layout
+  text-align: center;
+  padding: rem(10) rem(0); // 余白調整はここで行う。
+
+  @include mq(md) {
+    // size setting
+    max-width: rem(460);
+    width: 100%;
+    // font
+    font-size: rem(16);
+    font-weight: $regular;
+    // decoration
+    // layout
+    padding: rem(20) rem(0); // 余白調整はここで行う。
+  }
+  @include mq(xl) {
+  }
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #333;
+}

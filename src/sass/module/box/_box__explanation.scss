@@ -1,0 +1,14 @@
+@use "global" as *;
+
+.box__explanation {
+  font-family: "Noto Sans JP";
+  font-size: rem(16);
+  font-weight: $regular;
+  letter-spacing: rem(0);
+  line-height: 1;
+  @include mq(md) {
+    font-size: rem(16);
+  }
+  @include mq(xl) {
+  }
+}
