@@ -1,0 +1,9 @@
+@use "global" as *;
+
+.box {
+  display: inline-block;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

@@ -1,0 +1,51 @@
+@use "global" as *;
+
+.box__title {
+  // font
+  font-family: "Noto Sans JP";
+  font-size: rem(20);
+  font-weight: $regular;
+  letter-spacing: rem(0);
+  line-height: 1;
+  // position
+  position: relative;
+
+  @include mq(md) {
+    font-size: rem(30);
+  }
+  @include mq(xl) {
+  }
+}
+
+.box__title::before {
+  // font
+  font-family: "Noto Serif JP";
+  font-size: rem(50);
+  font-weight: $regular;
+  letter-spacing: rem(0);
+  line-height: 1;
+  // decoration
+  color: #f9f871;
+  // position
+  content: "Contact";
+  position: absolute;
+  top: rem(0);
+  left: 50%;
+  transform: translateX(-50%);
+  @include mq(md) {
+    // position
+    top: rem(55);
+    left: 18%;
+    transform: translateX(none);
+  }
+  @include mq(xl) {
+  }
+}
+
+.box__title_layout {
+  padding-top: rem(70);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

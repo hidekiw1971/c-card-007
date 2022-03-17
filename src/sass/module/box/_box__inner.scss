@@ -1,0 +1,18 @@
+@use "global" as *;
+
+.box__inner {
+  // size
+  max-width: rem(375);
+  width: 100%;
+  // decoration
+  background-color: #3d3d3d;
+  color: #fff;
+  // position
+  text-align: center;
+  @include mq(md) {
+    max-width: rem(1280);
+    width: 100%;
+  }
+  @include mq(xl) {
+  }
+}
