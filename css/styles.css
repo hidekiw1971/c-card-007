@@ -266,6 +266,7 @@ select::-ms-expand {
   text-align: center;
   padding: 10px 0px;
   padding: 0.625rem 0rem;
+  position: relative;
 }
 @media screen and (min-width: 768px) {
   .btn {
@@ -276,11 +277,27 @@ select::-ms-expand {
     padding: 1.25rem 0rem;
   }
 }
-.btn:hover {
+.btn-slide {
+  overflow: hidden;
+}
+.btn-slide:before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: -100%;
   background-color: #fff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.btn-slide:hover {
   color: #333;
 }
-
+.btn-slide:hover:before {
+  left: 0;
+}
 .center {
   text-align: center;
 }
