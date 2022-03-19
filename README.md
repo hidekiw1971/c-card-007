@@ -1,5 +1,10 @@
 # compornent（共通部品）
 
+## イメージ画像
+<img width="399" alt="image" src="https://user-images.githubusercontent.com/99580997/158999752-4c849ce2-a436-41dd-a01b-4733455f0eea.png">
+<img width="459" alt="image" src="https://user-images.githubusercontent.com/99580997/158999804-6044d420-3af0-4188-a251-7059ce9fc021.png">
+<img width="1020" alt="image" src="https://user-images.githubusercontent.com/99580997/158999852-e21b04ff-58b8-4fd2-9dbf-64a038b33fbb.png">
+
 ## 概要
 
 - 装飾、タイトル、説明、お問い合わせボタン、ホバー時スライドあり
@@ -12,17 +17,20 @@
 - ルートフォントを vw で設定していることから PC サイズのレイアウトをタブレットで表示させることが出来ます（rem で書いた場合のみ）。
 
 ## 注意事項
+- 
 
 ## 使い方
 
 - 「copy start」から「copy end」をコピペ。
 - css: src -> module -> box をコピペ。
 
-## イメージ画像
-<img width="399" alt="image" src="https://user-images.githubusercontent.com/99580997/158999752-4c849ce2-a436-41dd-a01b-4733455f0eea.png">
-<img width="459" alt="image" src="https://user-images.githubusercontent.com/99580997/158999804-6044d420-3af0-4188-a251-7059ce9fc021.png">
-<img width="1020" alt="image" src="https://user-images.githubusercontent.com/99580997/158999852-e21b04ff-58b8-4fd2-9dbf-64a038b33fbb.png">
+## w3c htmlチェック結果
+- mdnでもnoneで指定してるので、これで問題なし。
+- https://developer.mozilla.org/ja/docs/Web/CSS/transform
+<img width="917" alt="image" src="https://user-images.githubusercontent.com/99580997/159103251-76480a9f-2355-4f92-8539-2b1646c9358c.png">
 
+## w3c cssチェック結果
+<img width="917" alt="image" src="https://user-images.githubusercontent.com/99580997/159103275-14faff0a-b428-4588-a2ef-85b6443dbada.png">
 
 ## portfolio url:
 
